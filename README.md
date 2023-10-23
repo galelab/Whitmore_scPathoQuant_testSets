@@ -1,5 +1,5 @@
 # scViralQuant testSets 
-This repository contains all codes for testing software scViralQuant (download from here https://github.com/galelab/scViralQuant)
+This repository contains all codes for testing software [```scViralQuant```](https://doi.org/10.1101/2023.07.21.549987) which can be download from [```here```](https://github.com/galelab/scViralQuant)
 
 
 ### HIV test set (Bradley_et_al_testSet/)
