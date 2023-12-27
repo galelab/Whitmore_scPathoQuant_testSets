@@ -462,13 +462,13 @@ generate_folder(results_folder_base)
 
 results_folder <- file.path(results_folder_base, "bowtie2_global/")
 generate_folder(results_folder)
-SRR25sqvbow2global <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "SRR6825024", "outs", "filtered_feature_bc_matrix_bowtie2_global"),
+SRR25sqvbow2global <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "SRR6825024", "outs", "filtered_feature_bc_matrix_scPathoQuant_bowtie2"),
     sampleID = "HIV_REP_2", cells = cells
 )
 
 results_folder <- file.path(results_folder_base, "bbmap_global/")
 generate_folder(results_folder)
-SRR25sqvbbmapglobal <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "SRR6825024", "outs", "filtered_feature_bc_matrix_bbmap_global"),
+SRR25sqvbbmapglobal <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "SRR6825024", "outs", "filtered_feature_bc_matrix_scPathoQuant_bbmap"),
     sampleID = "HIV_REP_2", cells = cells
 )
 
@@ -703,7 +703,7 @@ pbmccr <- CreateSeuratObject(
     min.features = 0
 )
 
-pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "SRR6825025", "outs", "filtered_feature_bc_matrix_bowtie2_global"))
+pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "SRR6825025", "outs", "filtered_feature_bc_matrix_scPathoQuant_bowtie2"))
 
 pbmcsqvbow2global <- CreateSeuratObject(
     counts = pbmc.data,
@@ -712,7 +712,7 @@ pbmcsqvbow2global <- CreateSeuratObject(
     min.features = 0
 )
 
-pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "SRR6825025", "outs", "filtered_feature_bc_matrix_bbmap_global"))
+pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "SRR6825025", "outs", "filtered_feature_bc_matrix_scPathoQuant_bbmap"))
 
 pbmcsqvbbmapglobal <- CreateSeuratObject(
     counts = pbmc.data,
@@ -746,13 +746,13 @@ generate_folder(results_folder_base)
 
 results_folder <- file.path(results_folder_base, "bowtie2_global/")
 generate_folder(results_folder)
-SRR25sqvbow2global <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "SRR6825025", "outs", "filtered_feature_bc_matrix_bowtie2_global"),
+SRR25sqvbow2global <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "SRR6825025", "outs", "filtered_feature_bc_matrix_scPathoQuant_bowtie2"),
     sampleID = "HIV_REP_2", cells = cells
 )
 
 results_folder <- file.path(results_folder_base, "bbmap_global/")
 generate_folder(results_folder)
-SRR25sqvbbmapglobal <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "SRR6825025", "outs", "filtered_feature_bc_matrix_bbmap_global"),
+SRR25sqvbbmapglobal <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "SRR6825025", "outs", "filtered_feature_bc_matrix_scPathoQuant_bbmap"),
     sampleID = "HIV_REP_2", cells = cells
 )
 

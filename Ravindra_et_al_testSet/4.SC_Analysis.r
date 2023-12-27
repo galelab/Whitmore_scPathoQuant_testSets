@@ -417,7 +417,7 @@ pbmccr <- CreateSeuratObject(
     min.features = 0
 )
 
-pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "1dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bowtie2_global"))
+pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "1dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bowtie2"))
 
 pbmcsqvbow2global <- CreateSeuratObject(
     counts = pbmc.data,
@@ -426,7 +426,7 @@ pbmcsqvbow2global <- CreateSeuratObject(
     min.features = 0
 )
 
-pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "1dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bbmap_global"))
+pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "1dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bbmap"))
 
 pbmcsqvbbmapglobal <- CreateSeuratObject(
     counts = pbmc.data,
@@ -460,13 +460,13 @@ generate_folder(results_folder_base)
 
 results_folder <- file.path(results_folder_base, "1dpi_CoV2_HHT", "bowtie2_global/")
 generate_folder(results_folder)
-sqvbow2global <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "1dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bowtie2_global"),
+sqvbow2global <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "1dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bowtie2"),
     sampleID = "1dpi_CoV2_HHT", cells = cells
 )
 
 results_folder <- file.path(results_folder_base, "1dpi_CoV2_HHT", "bbmap_global/")
 generate_folder(results_folder)
-sqvbbmapglobal <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "1dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bbmap_global"),
+sqvbbmapglobal <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "1dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bbmap"),
     sampleID = "1dpi_CoV2_HHT", cells = cells
 )
 
@@ -520,7 +520,7 @@ pbmccr <- CreateSeuratObject(
     min.features = 0
 )
 
-pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "2dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bowtie2_global"))
+pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "2dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bowtie2"))
 
 pbmcsqvbow2global <- CreateSeuratObject(
     counts = pbmc.data,
@@ -529,7 +529,7 @@ pbmcsqvbow2global <- CreateSeuratObject(
     min.features = 0
 )
 
-pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "2dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bbmap_global"))
+pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "2dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bbmap"))
 
 pbmcsqvbbmapglobal <- CreateSeuratObject(
     counts = pbmc.data,
@@ -565,13 +565,13 @@ generate_folder(results_folder_base)
 
 results_folder <- file.path(results_folder_base, "2dpi_CoV2_HHT", "bowtie2_global/")
 generate_folder(results_folder)
-sqvbow2global <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "2dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bowtie2_global"),
+sqvbow2global <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "2dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bowtie2"),
     sampleID = "2dpi_CoV2_HHT", cells = cells
 )
 
 results_folder <- file.path(results_folder_base, "2dpi_CoV2_HHT", "bbmap_global/")
 generate_folder(results_folder)
-sqvbbmapglobal <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "2dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bbmap_global"),
+sqvbbmapglobal <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "2dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bbmap"),
     sampleID = "2dpi_CoV2_HHT", cells = cells
 )
 
@@ -628,7 +628,7 @@ pbmccr <- CreateSeuratObject(
     min.features = 0
 )
 
-pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "3dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bowtie2_global"))
+pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "3dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bowtie2"))
 
 pbmcsqvbow2global <- CreateSeuratObject(
     counts = pbmc.data,
@@ -637,7 +637,7 @@ pbmcsqvbow2global <- CreateSeuratObject(
     min.features = 0
 )
 
-pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "3dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bbmap_global"))
+pbmc.data <- Read10X(data.dir = file.path(SAMPLE_PATH_SQV, "3dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bbmap"))
 
 pbmcsqvbbmapglobal <- CreateSeuratObject(
     counts = pbmc.data,
@@ -673,13 +673,13 @@ generate_folder(results_folder_base)
 
 results_folder <- file.path(results_folder_base, "3dpi_CoV2_HHT", "bowtie2_global/")
 generate_folder(results_folder)
-sqvbow2global <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "3dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bowtie2_global"),
+sqvbow2global <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "3dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bowtie2"),
     sampleID = "3dpi_CoV2_HHT", cells = cells
 )
 
 results_folder <- file.path(results_folder_base, "3dpi_CoV2_HHT", "bbmap_global/")
 generate_folder(results_folder)
-sqvbbmapglobal <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "3dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_bbmap_global"),
+sqvbbmapglobal <- initial_SC_Seurat_SQV(file.path(SAMPLE_PATH_SQV, "3dpi_CoV2_HHT", "outs", "filtered_feature_bc_matrix_scPathoQuant_bbmap"),
     sampleID = "3dpi_CoV2_HHT", cells = cells
 )
 
