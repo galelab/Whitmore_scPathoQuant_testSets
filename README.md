@@ -26,7 +26,11 @@ Codes are run in the order of which they are numbered
 * 4.SC_Analysis.r - run analysis on data generated from scPathoQuant (results for scPathoQuant paper)
 * genomefiles/ - contains sars-cov2 genome files
 
- 
+ ### Co-infection of Sars-Cov-2 and Metapnemonivirus
+-----------------------------------------------------
+Data to test scPathoQuants ability to quantify multiple infections in a single cell sample. We use data set from Rosin NL, Jaffer A, Sinha S, Mulloy RP, Robinson C, Labit E, et al. SARS-CoV-2 Infection of Circulating Immune Cells is Not Responsible for Virus Dissemination in Severe COVID-19 Patients. Rochester, NY; 2021. Available from: https://papers.ssrn.com/abstract=3771665 to replicate co-infection first identified by  [```'ViralTrack```](https://github.com/PierreBSC/Viral-Track) with scPathoQuant
+
+
 ### Benchmarking scPathoQuant against other tools
 ---------------------------------------------------
 Here we provide codes used for benchmarking scPathoQuant against [```'ViralTrack```](https://github.com/PierreBSC/Viral-Track), [```Venus```](https://github.com/aicb-ZhangLabs/Venus) and [```PathogenTrack```](https://github.com/ncrna/PathogenTrack)
