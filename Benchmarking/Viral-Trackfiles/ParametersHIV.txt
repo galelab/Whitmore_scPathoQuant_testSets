@@ -1,0 +1,11 @@
+N_thread=14
+Output_directory="./HIVoutput"
+Index_genome="/share/lwhitmo/projects/scViralQuantTesting/Benchmarking/human_ref_genome/viraltrack_star_index"
+Viral_annotation_file="/share/lwhitmo/projects/scViralQuantTesting/Benchmarking/virus_HIV_pNL4-3_file.txt"
+Name_run="SRR6825025"
+Load_STAR_module=FALSE
+Load_samtools_module=FALSE
+Load_stringtie_module=FALSE
+Minimal_read_mapped=50
+Single_cell_metadata="/share/lwhitmo/projects/scViralQuantTesting/Benchmarking/ViralTrackBenchResults/whitelist.txt"
+

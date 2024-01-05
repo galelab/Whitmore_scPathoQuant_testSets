@@ -1,0 +1,1 @@
+/share/lwhitmo/projects/scViralQuantTesting/Benchmarking/ViralTrackBenchResults/SRR6825025_S1_L001_R2_001.extracted.fastq.gz
