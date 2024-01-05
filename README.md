@@ -43,3 +43,10 @@ Here we provide codes used for benchmarking scPathoQuant against [```'ViralTrack
 * PathogenTrackBench.sh - commands required to run PathogenTrack
 * VenusBench.sh - commands required to run Venus 
 * ViralTrackBench.sh - commands required to run ViralTrack
+
+### CITATION
+-------------
+Data is for data in this paper:
+scViralQuant: A tool for efficient alignment and quantification of viral reads from 10x single cell sequencing data sets
+Leanne S. Whitmore, Jennifer Tisoncik-Go, Michael Gale Jr.
+bioRxiv 2023.07.21.549987; doi: https://doi.org/10.1101/2023.07.21.549987
