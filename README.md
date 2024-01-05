@@ -27,6 +27,11 @@ Codes are run in the order of which they are numbered
 * genomefiles/ - contains sars-cov2 genome files
 
  
+### Benchmarking scPathoQuant against other tools
+---------------------------------------------------
+Here we provide codes used for benchmarking scPathoQuant against [```'ViralTrack```](https://github.com/PierreBSC/Viral-Track), [```Venus```](https://github.com/aicb-ZhangLabs/Venus) and [```PathogenTrack```](https://github.com/ncrna/PathogenTrack)
 
- 
-
+* CellRangerwithSPQBench.sh - commands to run scPathoQuant 
+* PathogenTrackBench.sh - commands required to run PathogenTrack
+* VenusBench.sh - commands required to run Venus 
+* ViralTrackBench.sh - commands required to run ViralTrack
